@@ -1,0 +1,11 @@
+name: print My Code
+
+on: push
+
+jobs:
+  greet:
+
+    runs-on: windows-latest
+    steps:
+    - name: Run on one-line script
+      run: Write-Host My Code!
